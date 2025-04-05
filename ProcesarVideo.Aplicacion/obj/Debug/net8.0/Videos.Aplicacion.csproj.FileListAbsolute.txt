@@ -1,0 +1,48 @@
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.deps.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.AssemblyReference.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfoInputs.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfo.cs
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.CoreCompileInputs.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.sourcelink.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.A.0DE124B5.Up2Date
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\refint\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioVideo\ProcesarVideo.Aplicacion\obj\Debug\net8.0\ref\Videos.Aplicacion.dll
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.deps.json
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.dll
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.dll
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.pdb
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.AssemblyReference.cache
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfoInputs.cache
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfo.cs
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.CoreCompileInputs.cache
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.sourcelink.json
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.A.0DE124B5.Up2Date
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.dll
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\refint\Videos.Aplicacion.dll
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Git\CCP\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\ref\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.deps.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\bin\Debug\net8.0\Videos.Dominio.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.AssemblyReference.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfoInputs.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.AssemblyInfo.cs
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.csproj.CoreCompileInputs.cache
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.sourcelink.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.A.0DE124B5.Up2Date
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\refint\Videos.Aplicacion.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\Videos.Aplicacion.pdb
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Aplicacion\obj\Debug\net8.0\ref\Videos.Aplicacion.dll
