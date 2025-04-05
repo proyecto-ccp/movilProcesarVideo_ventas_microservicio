@@ -19,17 +19,19 @@ namespace Videos.Dominio.Servicios
                 video.FechaCreacion = DateTime.Now;
                 video.UrlVideo = "https://storage.googleapis.com/videos_ccp/" + video.Nombre;
                 video.EstadoCarga = "Cargado";
+
                 await videoRepositorio.Cargar(video);
 
-                GoogleCredential credential = null;
-                using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
-                    FileAccess.Read, FileShare.Read))
-                {
-                    credential = GoogleCredential.FromStream(jsonStream);
-                }
+                //GoogleCredential credential = null;
+                //using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
+                //    FileAccess.Read, FileShare.Read))
+                //{
+                //    credential = GoogleCredential.FromStream(jsonStream);
+                //}
 
                 var gcsStorage = StorageClient.Create(credential);
                 byte[] binaryData = Convert.FromBase64String(video.Archivo);
+                var file = Encoding.UTF8.GetBytes(video.Archivo);
 
                 await gcsStorage.UploadObjectAsync(
                         "videos_ccp",
@@ -40,7 +42,6 @@ namespace Videos.Dominio.Servicios
                         {
                             PredefinedAcl = PredefinedObjectAcl.PublicRead
                         });
-
             }
             else
             {
