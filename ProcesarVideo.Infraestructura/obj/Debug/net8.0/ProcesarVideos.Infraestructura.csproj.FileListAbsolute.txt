@@ -13,3 +13,4 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Infraestructura\obj\Debug\net8.0\refint\ProcesarVideos.Infraestructura.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Infraestructura\obj\Debug\net8.0\ProcesarVideos.Infraestructura.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Infraestructura\obj\Debug\net8.0\ref\ProcesarVideos.Infraestructura.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Infraestructura\obj\Debug\net8.0\ProcesarVideos.Infraestructura.sourcelink.json

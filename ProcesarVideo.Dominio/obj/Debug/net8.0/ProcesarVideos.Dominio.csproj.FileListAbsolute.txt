@@ -10,3 +10,4 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Dominio\obj\Debug\net8.0\refint\ProcesarVideos.Dominio.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Dominio\obj\Debug\net8.0\ProcesarVideos.Dominio.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Dominio\obj\Debug\net8.0\ref\ProcesarVideos.Dominio.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ProcesarVideo.Dominio\obj\Debug\net8.0\ProcesarVideos.Dominio.sourcelink.json

@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Video/CargarVideo": {
+    "/api/Video/ProcesarVideo": {
       "post": {
         "tags": [
           "Video"
@@ -243,31 +243,15 @@
       "VideoIn": {
         "type": "object",
         "properties": {
-          "idCliente": {
+          "id": {
             "type": "string",
             "format": "uuid"
-          },
-          "idProducto": {
-            "type": "integer",
-            "format": "int32"
           },
           "nombre": {
             "type": "string",
             "nullable": true
           },
           "video": {
-            "type": "string",
-            "nullable": true
-          },
-          "urlVideo": {
-            "type": "string",
-            "nullable": true
-          },
-          "urlImagen": {
-            "type": "string",
-            "nullable": true
-          },
-          "estadoCarga": {
             "type": "string",
             "nullable": true
           }

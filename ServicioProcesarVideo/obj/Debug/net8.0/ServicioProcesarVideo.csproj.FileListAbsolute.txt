@@ -70,3 +70,4 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideo.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideo.genruntimeconfig.cache
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ref\ServicioProcesarVideo.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideo.sourcelink.json

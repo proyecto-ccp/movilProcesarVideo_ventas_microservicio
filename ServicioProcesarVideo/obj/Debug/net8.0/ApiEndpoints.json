@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "ServicioVideo.Controllers.VideoController",
+    "ContainingType": "ServicioProcesarVideo.Controllers.VideoController",
     "Method": "CargarVideo",
-    "RelativePath": "api/Video/CargarVideo",
+    "RelativePath": "api/Video/ProcesarVideo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

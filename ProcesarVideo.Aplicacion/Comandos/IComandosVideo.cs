@@ -4,6 +4,6 @@ namespace Videos.Aplicacion.Comandos
 {
     public interface IComandosVideo
     {
-        Task<BaseOut> CargarVideo(VideoIn producto);
+        Task<BaseOut> ProcesarVideo(VideoIn producto);
     }
 }

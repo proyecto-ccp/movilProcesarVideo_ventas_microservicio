@@ -2,7 +2,7 @@
 using Videos.Aplicacion.Comandos;
 using Videos.Aplicacion.Dto;
 
-namespace ServicioVideo.Controllers
+namespace ServicioProcesarVideo.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -17,7 +17,7 @@ namespace ServicioVideo.Controllers
         }
 
         [HttpPost]
-        [Route("CargarVideo")]
+        [Route("ProcesarVideo")]
         [ProducesResponseType(typeof(VideoOut), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ValidationProblemDetails),401)]
@@ -26,7 +26,7 @@ namespace ServicioVideo.Controllers
         {
             try
             {
-                var resultado = await _comandosVideo.CargarVideo(videoIn);
+                var resultado = await _comandosVideo.ProcesarVideo(videoIn);
 
                 if(resultado.Resultado != Videos.Aplicacion.Enum.Resultado.Error)
                     return Ok(resultado);

@@ -28,10 +28,27 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             var _context = GetContext();
             var entitySet = _context.Set<T>();
             var res = await entitySet.AddAsync(entity);
-            //await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
             return entity;
         }
+
+        public async Task<T> Procesar(T entity)
+        {
+            try
+            {
+                var _context = GetContext();
+                var entitySet = _context.Set<T>();
+                var res = entitySet.Update(entity);
+                await _context.SaveChangesAsync();
+                return res.Entity;
+            }
+            catch (DbUpdateException ex)
+            {
+                Console.WriteLine(ex.InnerException?.Message);
+                return null;
+            }
+        }
+
         public async Task<T> BuscarPorLlave(object ValueKey)
         {
             var _context = GetContext();
@@ -71,7 +88,5 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-    
-    
     }
 }

@@ -12,9 +12,9 @@ namespace Videos.Infraestructura.Adaptadores.Repositorios
         {
             _repositorioBase = repositorioBase;
         }
-        public async Task Cargar(Video video)
+        public async Task Procesar(Video video)
         {
-            await _repositorioBase.Cargar(video);
+            await _repositorioBase.Procesar(video);
         }
 
         public async Task<List<Video>> ObtenerListado()
