@@ -22,12 +22,12 @@ namespace Videos.Dominio.Servicios
 
                 await videoRepositorio.Cargar(video);
 
-                //GoogleCredential credential = null;
-                //using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
-                //    FileAccess.Read, FileShare.Read))
-                //{
-                //    credential = GoogleCredential.FromStream(jsonStream);
-                //}
+                GoogleCredential credential = null;
+                using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
+                    FileAccess.Read, FileShare.Read))
+                {
+                    credential = GoogleCredential.FromStream(jsonStream);
+                }
 
                 var gcsStorage = StorageClient.Create(credential);
                 byte[] binaryData = Convert.FromBase64String(video.Archivo);
