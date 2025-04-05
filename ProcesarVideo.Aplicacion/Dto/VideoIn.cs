@@ -13,9 +13,6 @@ namespace Videos.Aplicacion.Dto
         public int IdProducto { get; set; }
         public string Nombre { get; set; }
         public string Video { get; set; }
-        //public string Ruta { get; set; }
-        public string UrlVideo { get; set; }
-        public string UrlImagen { get; set; }
-        public string EstadoCarga { get; set; }
+      
     }
 }

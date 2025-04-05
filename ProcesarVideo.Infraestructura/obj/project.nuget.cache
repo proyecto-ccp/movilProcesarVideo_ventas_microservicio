@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jbOER0REYtk=",
+  "dgSpecHash": "WkocNFZD1RY=",
   "success": true,
-  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
+  "projectFilePath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edw_5\\.nuget\\packages\\google.api.gax\\4.9.0\\google.api.gax.4.9.0.nupkg.sha512",
     "C:\\Users\\edw_5\\.nuget\\packages\\google.api.gax.rest\\4.9.0\\google.api.gax.rest.4.9.0.nupkg.sha512",

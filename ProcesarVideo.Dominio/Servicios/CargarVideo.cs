@@ -18,6 +18,7 @@ namespace Videos.Dominio.Servicios
                 video.Id = Guid.NewGuid();
                 video.FechaCreacion = DateTime.Now;
                 video.UrlVideo = "https://storage.googleapis.com/videos_ccp/" + video.Nombre;
+                video.EstadoCarga = "Cargado";
                 await videoRepositorio.Cargar(video);
 
                 GoogleCredential credential = null;
@@ -28,18 +29,18 @@ namespace Videos.Dominio.Servicios
                 }
 
                 var gcsStorage = StorageClient.Create(credential);
-                var file = Encoding.UTF8.GetBytes(video.Archivo);
+                byte[] binaryData = Convert.FromBase64String(video.Archivo);
 
                 await gcsStorage.UploadObjectAsync(
                         "videos_ccp",
                         video.Nombre,
                         "video/mp4",
-                        new MemoryStream(file),
+                        new MemoryStream(binaryData),
                         new UploadObjectOptions
                         {
                             PredefinedAcl = PredefinedObjectAcl.PublicRead
                         });
-                
+
             }
             else
             {
@@ -49,7 +50,7 @@ namespace Videos.Dominio.Servicios
 
         public bool ValidarVideo(Video video)
         {
-            return video.IdCliente != Guid.Empty && video.IdProducto != 0 && !string.IsNullOrEmpty(video.Nombre) && !string.IsNullOrEmpty(video.UrlVideo) && !string.IsNullOrEmpty(video.Archivo);
+            return video.IdCliente != Guid.Empty && video.IdProducto != 0 && !string.IsNullOrEmpty(video.Nombre) && !string.IsNullOrEmpty(video.Archivo);
         }
     }
 }

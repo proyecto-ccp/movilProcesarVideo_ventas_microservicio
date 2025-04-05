@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj": {}
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj": {}
   },
   "projects": {
-    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
         "projectName": "Videos.Aplicacion",
-        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj",
         "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
-        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\obj\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
-                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj"
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
         "projectName": "Videos.Dominio",
-        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj",
         "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
-        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\obj\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
         "projectName": "Videos.Infraestructura",
-        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj",
         "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
-        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\obj\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -185,8 +185,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
-                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj"
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Dominio\\Videos.Dominio.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj",
         "projectName": "ServicioVideo",
-        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioVideo.csproj",
         "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
-        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\obj\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ServicioProcesarVideo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -265,11 +265,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj": {
-                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj"
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\Videos.Aplicacion.csproj"
               },
-              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj": {
-                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj"
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\Videos.Infraestructura.csproj"
               }
             }
           }

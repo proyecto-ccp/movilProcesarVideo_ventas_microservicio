@@ -258,18 +258,6 @@
           "video": {
             "type": "string",
             "nullable": true
-          },
-          "urlVideo": {
-            "type": "string",
-            "nullable": true
-          },
-          "urlImagen": {
-            "type": "string",
-            "nullable": true
-          },
-          "estadoCarga": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
