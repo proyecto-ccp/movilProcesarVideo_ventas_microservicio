@@ -17,12 +17,15 @@ namespace Videos.Dominio.Servicios
             getGoogleClient();
             if (ValidarVideo(video))
             {
-                string nombreArchivo = video.Nombre.Substring(1, video.Nombre.IndexOf("mp4")) + "jpeg";
+                string nombreArchivo = video.Nombre.Substring(0, video.Nombre.IndexOf("mp4")) + "jpeg";
                 video.FechaActualizacion = DateTime.Now;
-                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + nombreArchivo;
+
+                await AlmacenarImagen(video, nombreArchivo);
+
+                //video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + nombreArchivo;
+                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/Imagen.jpg";
                 video.EstadoCarga = "Procesado";
                 await videoRepositorio.Procesar(video);
-                await AlmacenarImagen(video, nombreArchivo);
             }
             else
             {
@@ -46,7 +49,10 @@ namespace Videos.Dominio.Servicios
         {
             byte[] binaryData = Convert.FromBase64String(video.Archivo);
             var file = System.Text.Encoding.UTF8.GetBytes(video.Archivo);
-            Stream stream = new MemoryStream(file);
+
+            //await Cargar(binaryData, nombreArchivo, "image/jpeg");
+            //Stream stream = new MemoryStream(file);
+
             //using (var videoFrameReader = new VideoFrameReader(stream))
             //{
             //    if (videoFrameReader.Read())
@@ -58,6 +64,20 @@ namespace Videos.Dominio.Servicios
             //        }
             //    }
             //}
+        }
+
+        private async Task Cargar(byte[] binaryData, string nombre, string tipo)
+        {
+            var gcsStorage = StorageClient.Create(credential);
+            await gcsStorage.UploadObjectAsync(
+                    "videos_ccp",
+                    nombre,
+                    tipo,
+                    new MemoryStream(binaryData),
+                    new UploadObjectOptions
+                    {
+                        PredefinedAcl = PredefinedObjectAcl.PublicRead
+                    });
         }
 
         public bool ValidarVideo(Video video)

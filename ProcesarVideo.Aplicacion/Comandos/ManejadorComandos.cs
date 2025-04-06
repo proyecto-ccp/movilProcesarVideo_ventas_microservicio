@@ -27,7 +27,7 @@ namespace Videos.Aplicacion.Comandos
                 var videoDominio = _mapper.Map<Video>(video);
                 await _cargarVideo.Procesar(videoDominio);
                 baseOut.Resultado = Resultado.Exitoso;
-                baseOut.Mensaje = "video cargado exitosamente";
+                baseOut.Mensaje = "video procesado exitosamente";
                 baseOut.Status = HttpStatusCode.Created;
             }
             catch (Exception ex)
