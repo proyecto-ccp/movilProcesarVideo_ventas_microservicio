@@ -14,7 +14,7 @@ namespace Videos.Dominio.Servicios
         GoogleCredential credential = null;
         public async Task Procesar(Video video)
         {
-            getGoogleClient();
+            //getGoogleClient();
             if (ValidarVideo(video))
             {
                 string nombreArchivo = video.Nombre.Substring(0, video.Nombre.IndexOf("mp4")) + "jpeg";
@@ -33,7 +33,7 @@ namespace Videos.Dominio.Servicios
             }
         }
 
-        private void getGoogleClient()
+        /*private void getGoogleClient()
         {
             if (credential == null)
             {
@@ -43,7 +43,7 @@ namespace Videos.Dominio.Servicios
                     credential = GoogleCredential.FromStream(jsonStream);
                 }
             }
-        }
+        }*/
 
         private async Task AlmacenarImagen(Video video, string nombreArchivo)
         {
@@ -66,7 +66,7 @@ namespace Videos.Dominio.Servicios
             //}
         }
 
-        private async Task Cargar(byte[] binaryData, string nombre, string tipo)
+        /*private async Task Cargar(byte[] binaryData, string nombre, string tipo)
         {
             var gcsStorage = StorageClient.Create(credential);
             await gcsStorage.UploadObjectAsync(
@@ -78,7 +78,7 @@ namespace Videos.Dominio.Servicios
                     {
                         PredefinedAcl = PredefinedObjectAcl.PublicRead
                     });
-        }
+        }*/
 
         public bool ValidarVideo(Video video)
         {

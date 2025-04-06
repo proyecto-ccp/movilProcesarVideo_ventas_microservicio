@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServicioProcesarVideo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2489b85630a5515f988c7edc4cf04a0c648f765c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa70cd8695126d9de96ec6ddd8f50581d38e5944")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServicioProcesarVideo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServicioProcesarVideo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

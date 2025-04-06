@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcesarVideos.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65117e360510b34b820f4932e418ed760bdc0918")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa70cd8695126d9de96ec6ddd8f50581d38e5944")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcesarVideos.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcesarVideos.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

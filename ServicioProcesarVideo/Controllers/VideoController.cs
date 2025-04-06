@@ -29,7 +29,6 @@ namespace ServicioProcesarVideo.Controllers
         {
             try
             {
-                //VideoIn videoIn = new VideoIn();
                 var decodedBytes = Convert.FromBase64String(pubSubPushMessage.Message.Data);
                 var json = Encoding.UTF8.GetString(decodedBytes);
 
