@@ -11,20 +11,53 @@ namespace Videos.Dominio.Servicios
     public class ProcesarVideo(IVideoRepositorio videoRepositorio)
     {
         private readonly IVideoRepositorio _videoRepositorio = videoRepositorio;
+        GoogleCredential credential = null;
         public async Task Procesar(Video video)
         {
+            getGoogleClient();
             if (ValidarVideo(video))
             {
+                string nombreArchivo = video.Nombre.Substring(1, video.Nombre.IndexOf("mp4")) + "jpeg";
                 video.FechaActualizacion = DateTime.Now;
-                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + video.Nombre;
+                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + nombreArchivo;
                 video.EstadoCarga = "Procesado";
                 await videoRepositorio.Procesar(video);
-                
+                await AlmacenarImagen(video, nombreArchivo);
             }
             else
             {
                 throw new InvalidOperationException("Valores incorrectos para los parametros minimos");
             }
+        }
+
+        private void getGoogleClient()
+        {
+            if (credential == null)
+            {
+                using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
+                FileAccess.Read, FileShare.Read))
+                {
+                    credential = GoogleCredential.FromStream(jsonStream);
+                }
+            }
+        }
+
+        private async Task AlmacenarImagen(Video video, string nombreArchivo)
+        {
+            byte[] binaryData = Convert.FromBase64String(video.Archivo);
+            var file = System.Text.Encoding.UTF8.GetBytes(video.Archivo);
+            Stream stream = new MemoryStream(file);
+            //using (var videoFrameReader = new VideoFrameReader(stream))
+            //{
+            //    if (videoFrameReader.Read())
+            //    {
+            //        using (var frame = videoFrameReader.GetFrame())
+            //        {
+            //            var image = frame.SaveAsBytes(ImageFormat.Jpg);
+            //            await Cargar(image, nombreArchivo, "image/jpeg");
+            //        }
+            //    }
+            //}
         }
 
         public bool ValidarVideo(Video video)
