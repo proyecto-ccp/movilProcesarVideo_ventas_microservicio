@@ -26,6 +26,7 @@ namespace ServicioProcesarVideo.Controllers
         {
             try
             {
+                Console.WriteLine(Request.Body);
                 var resultado = await _comandosVideo.ProcesarVideo(videoIn);
 
                 if(resultado.Resultado != Videos.Aplicacion.Enum.Resultado.Error)
