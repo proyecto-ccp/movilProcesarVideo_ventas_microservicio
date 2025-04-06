@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "videoIn",
-        "Type": "Videos.Aplicacion.Dto.VideoIn",
+        "Name": "pubSubPushMessage",
+        "Type": "ProcesarVideos.Aplicacion.Dto.PubSubPushMessage",
         "IsRequired": true
       }
     ],

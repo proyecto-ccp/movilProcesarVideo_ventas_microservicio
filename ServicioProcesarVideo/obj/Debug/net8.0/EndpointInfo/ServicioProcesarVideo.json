@@ -14,7 +14,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VideoIn"
+                "$ref": "#/components/schemas/PubSubPushMessage"
               }
             }
           }
@@ -160,6 +160,44 @@
         },
         "additionalProperties": { }
       },
+      "PubSubMessage": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "nullable": true
+          },
+          "attributes": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "messageId": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishTime": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PubSubPushMessage": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "$ref": "#/components/schemas/PubSubMessage"
+          },
+          "subscription": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Resultado": {
         "enum": [
           1,
@@ -234,24 +272,6 @@
             "nullable": true
           },
           "estadoCarga": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "VideoIn": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "nombre": {
-            "type": "string",
-            "nullable": true
-          },
-          "video": {
             "type": "string",
             "nullable": true
           }

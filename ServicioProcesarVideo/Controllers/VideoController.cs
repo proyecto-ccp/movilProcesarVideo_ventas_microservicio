@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProcesarVideos.Aplicacion.Dto;
+using System.Text;
+using System.Text.Json;
 using Videos.Aplicacion.Comandos;
 using Videos.Aplicacion.Dto;
 
@@ -22,11 +25,19 @@ namespace ServicioProcesarVideo.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ValidationProblemDetails),401)]
         [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
-        public async Task<IActionResult> CargarVideo([FromBody] VideoIn videoIn)
+        public async Task<IActionResult> CargarVideo([FromBody] PubSubPushMessage pubSubPushMessage)
         {
             try
             {
-                Console.WriteLine(Request.Body);
+                //VideoIn videoIn = new VideoIn();
+                var decodedBytes = Convert.FromBase64String(pubSubPushMessage.Message.Data);
+                var json = Encoding.UTF8.GetString(decodedBytes);
+
+                var videoIn = JsonSerializer.Deserialize<VideoIn>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
                 var resultado = await _comandosVideo.ProcesarVideo(videoIn);
 
                 if(resultado.Resultado != Videos.Aplicacion.Enum.Resultado.Error)
