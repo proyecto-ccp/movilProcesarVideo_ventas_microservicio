@@ -1712,7 +1712,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj",
-      "projectName": "ServicioProcesarVideo",
+      "projectName": "ServicioProcesarVideoApp",
       "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj",
       "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
       "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\obj\\",
