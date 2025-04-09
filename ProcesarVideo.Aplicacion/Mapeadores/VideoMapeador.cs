@@ -18,7 +18,7 @@ namespace Videos.Aplicacion.Mapeadores
             CreateMap<Video,VideoIn>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Nombre))
-                .ForMember(dest => dest.Video, opt => opt.MapFrom(src => src.Archivo))
+                .ForMember(dest => dest.Archivo, opt => opt.MapFrom(src => src.Archivo))
                 .ReverseMap();
 
             CreateMap<VideoOut,VideoIn>()

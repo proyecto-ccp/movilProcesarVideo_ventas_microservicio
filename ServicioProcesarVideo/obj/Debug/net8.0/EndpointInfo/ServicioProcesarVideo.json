@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "ServicioProcesarVideo",
+    "title": "ServicioProcesarVideoApp",
     "version": "1.0"
   },
   "paths": {
@@ -166,21 +166,6 @@
           "data": {
             "type": "string",
             "nullable": true
-          },
-          "attributes": {
-            "type": "object",
-            "additionalProperties": {
-              "type": "string"
-            },
-            "nullable": true
-          },
-          "messageId": {
-            "type": "string",
-            "nullable": true
-          },
-          "publishTime": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -190,10 +175,6 @@
         "properties": {
           "message": {
             "$ref": "#/components/schemas/PubSubMessage"
-          },
-          "subscription": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

@@ -3,6 +3,6 @@
     public class PubSubPushMessage
     {
         public PubSubMessage Message { get; set; }
-        public string Subscription { get; set; }
+        //public string Subscription { get; set; }
     }
 }
