@@ -1,10 +1,10 @@
 ﻿using Videos.Dominio.Entidades;
 using Videos.Dominio.Puertos.Repositorios;
-using Google.Apis.Storage.v1.Data;
 using Google.Cloud.Storage.V1;
-using Microsoft.VisualBasic;
-using System.Text;
 using Google.Apis.Auth.OAuth2;
+using Xabe.FFmpeg;
+using Xabe.FFmpeg.Downloader;
+using System.Text.Json;
 
 namespace Videos.Dominio.Servicios
 {
@@ -14,7 +14,7 @@ namespace Videos.Dominio.Servicios
         GoogleCredential credential = null;
         public async Task Procesar(Video video)
         {
-            //getGoogleClient();
+            getGoogleClient();
             if (ValidarVideo(video))
             {
                 string nombreArchivo = video.Nombre.Substring(0, video.Nombre.IndexOf("mp4")) + "jpeg";
@@ -22,8 +22,8 @@ namespace Videos.Dominio.Servicios
 
                 await AlmacenarImagen(video, nombreArchivo);
 
-                //video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + nombreArchivo;
-                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/Imagen.jpg";
+                video.UrlImagen = "https://storage.googleapis.com/videos_ccp/" + nombreArchivo;
+                //video.UrlImagen = "https://storage.googleapis.com/videos_ccp/Imagen.jpg";
                 video.EstadoCarga = "Procesado";
                 await videoRepositorio.Procesar(video);
             }
@@ -33,40 +33,49 @@ namespace Videos.Dominio.Servicios
             }
         }
 
-        /*private void getGoogleClient()
+        private void getGoogleClient()
         {
             if (credential == null)
             {
-                using (var jsonStream = new FileStream("../../Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
+                using (var jsonStream = new FileStream("Recursos/experimento-ccp-8172d4037e96.json", FileMode.Open,
                 FileAccess.Read, FileShare.Read))
                 {
                     credential = GoogleCredential.FromStream(jsonStream);
                 }
             }
-        }*/
+        }
 
         private async Task AlmacenarImagen(Video video, string nombreArchivo)
         {
-            byte[] binaryData = Convert.FromBase64String(video.Archivo);
-            var file = System.Text.Encoding.UTF8.GetBytes(video.Archivo);
+            // 1. Decodificar Base64 a bytes
+            byte[] videoBytes = Convert.FromBase64String(video.Archivo);
 
-            //await Cargar(binaryData, nombreArchivo, "image/jpeg");
-            //Stream stream = new MemoryStream(file);
+            // 2. Guardar el archivo de video temporalmente
+            string tempVideoPath = Path.Combine(Path.GetTempPath(), "tempVideo.mp4");
+            File.WriteAllBytes(tempVideoPath, videoBytes);
 
-            //using (var videoFrameReader = new VideoFrameReader(stream))
-            //{
-            //    if (videoFrameReader.Read())
-            //    {
-            //        using (var frame = videoFrameReader.GetFrame())
-            //        {
-            //            var image = frame.SaveAsBytes(ImageFormat.Jpg);
-            //            await Cargar(image, nombreArchivo, "image/jpeg");
-            //        }
-            //    }
-            //}
+            // 2. Configurar FFmpeg (descarga automática)
+            FFmpeg.SetExecutablesPath("Recursos/ffmpeg");
+            //FFmpeg.SetExecutablesPath(Path.Combine(Environment.CurrentDirectory, "Recursos/ffmpeg"));
+
+
+            // 3. Ruta para imagen extraída
+            string imagePath = Path.Combine(Path.GetTempPath(), "frame.jpg");
+
+            // 4. Crear conversión para snapshot en el segundo 1
+            var conversion = await FFmpeg.Conversions.FromSnippet.Snapshot(tempVideoPath, imagePath, TimeSpan.FromSeconds(1));
+            await conversion.Start();
+
+            // 5. Convertir imagen a Base64
+            byte[] imageBytes = await File.ReadAllBytesAsync(imagePath);
+
+            // 7. Limpiar archivo temporal si querés
+            File.Delete(tempVideoPath);
+
+            await Cargar(imageBytes, nombreArchivo, "image/jpeg");
         }
 
-        /*private async Task Cargar(byte[] binaryData, string nombre, string tipo)
+        private async Task Cargar(byte[] binaryData, string nombre, string tipo)
         {
             var gcsStorage = StorageClient.Create(credential);
             await gcsStorage.UploadObjectAsync(
@@ -78,7 +87,7 @@ namespace Videos.Dominio.Servicios
                     {
                         PredefinedAcl = PredefinedObjectAcl.PublicRead
                     });
-        }*/
+        }
 
         public bool ValidarVideo(Video video)
         {

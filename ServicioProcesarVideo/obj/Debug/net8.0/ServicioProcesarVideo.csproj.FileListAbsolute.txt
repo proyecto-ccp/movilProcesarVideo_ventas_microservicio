@@ -71,3 +71,10 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\refint\ServicioProcesarVideoApp.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideoApp.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ref\ServicioProcesarVideoApp.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\Recursos\experimento-ccp-8172d4037e96.json
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\Xabe.FFmpeg.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\Xabe.FFmpeg.Downloader.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\System.Text.Json.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

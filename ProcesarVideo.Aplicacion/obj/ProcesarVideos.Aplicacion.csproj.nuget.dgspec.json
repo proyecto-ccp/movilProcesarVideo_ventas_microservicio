@@ -134,6 +134,18 @@
             "Google.Cloud.Storage.V1": {
               "target": "Package",
               "version": "[4.11.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Xabe.FFmpeg": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Xabe.FFmpeg.Downloader": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
