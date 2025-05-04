@@ -55,9 +55,9 @@ namespace Videos.Dominio.Servicios
             File.WriteAllBytes(tempVideoPath, videoBytes);
 
             // 2. Configurar FFmpeg (descarga automática)
-            FFmpeg.SetExecutablesPath("Recursos/ffmpeg");
-            //FFmpeg.SetExecutablesPath(Path.Combine(Environment.CurrentDirectory, "Recursos/ffmpeg"));
-
+            await FFmpegDownloader.GetLatestVersion(FFmpegVersion.Official, Path.Combine(Environment.CurrentDirectory, "Recursos/ffmpeg"));
+            //FFmpeg.SetExecutablesPath("Recursos/ffmpeg");
+            FFmpeg.SetExecutablesPath(Path.Combine(Environment.CurrentDirectory, "Recursos/ffmpeg"));
 
             // 3. Ruta para imagen extraída
             string imagePath = Path.Combine(Path.GetTempPath(), "frame.jpg");
