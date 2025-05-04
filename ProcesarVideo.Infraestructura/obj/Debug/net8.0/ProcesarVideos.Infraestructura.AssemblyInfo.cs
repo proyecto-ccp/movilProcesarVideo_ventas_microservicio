@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcesarVideos.Infraestructura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17d731e128403db872d80c80150060979f31e0e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41a07175cbcbc42e83567704a0946e813a44da24")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcesarVideos.Infraestructura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcesarVideos.Infraestructura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
