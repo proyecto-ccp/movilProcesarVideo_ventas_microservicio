@@ -1,0 +1,437 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideos.Test\\ProcesarVideos.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj",
+        "projectName": "ProcesarVideos.Aplicacion",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj",
+        "projectName": "ProcesarVideos.Dominio",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.69.0, )"
+            },
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Xabe.FFmpeg": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Xabe.FFmpeg.Downloader": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\ProcesarVideos.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\ProcesarVideos.Infraestructura.csproj",
+        "projectName": "ProcesarVideos.Infraestructura",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\ProcesarVideos.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio\\ProcesarVideos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideos.Test\\ProcesarVideos.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideos.Test\\ProcesarVideos.Test.csproj",
+        "projectName": "ProcesarVideos.Test",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideos.Test\\ProcesarVideos.Test.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideos.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj"
+              },
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj",
+        "projectName": "ServicioProcesarVideoApp",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\ServicioProcesarVideo.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion\\ProcesarVideos.Aplicacion.csproj"
+              },
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\ProcesarVideos.Infraestructura.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura\\ProcesarVideos.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

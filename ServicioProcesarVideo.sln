@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcesarVideos.Dominio", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcesarVideos.Infraestructura", "ProcesarVideo.Infraestructura\ProcesarVideos.Infraestructura.csproj", "{5E181ADB-CE78-44CE-93FF-A0F6F4E4D70F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcesarVideos.Test", "ProcesarVideos.Test\ProcesarVideos.Test.csproj", "{307647EE-3B55-497E-BF25-C36EF6A400C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5E181ADB-CE78-44CE-93FF-A0F6F4E4D70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E181ADB-CE78-44CE-93FF-A0F6F4E4D70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E181ADB-CE78-44CE-93FF-A0F6F4E4D70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307647EE-3B55-497E-BF25-C36EF6A400C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307647EE-3B55-497E-BF25-C36EF6A400C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307647EE-3B55-497E-BF25-C36EF6A400C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307647EE-3B55-497E-BF25-C36EF6A400C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

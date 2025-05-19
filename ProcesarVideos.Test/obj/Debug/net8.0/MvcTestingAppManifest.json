@@ -1,0 +1,6 @@
+{
+  "ProcesarVideos.Aplicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Aplicacion",
+  "ProcesarVideos.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Dominio",
+  "ProcesarVideos.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ProcesarVideo.Infraestructura",
+  "ServicioProcesarVideoApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\movilProcesarVideo_ventas_microservicio\\ServicioProcesarVideo"
+}

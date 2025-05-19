@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using System.Diagnostics.CodeAnalysis;
 using Videos.Dominio.Entidades;
 using Videos.Infraestructura.Adaptadores.Repositorios;
 
@@ -23,6 +24,7 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             return GetContext().Set<T>();
         }
 
+        [ExcludeFromCodeCoverage]
         public async Task<T> Cargar(T entity)
         {
             var _context = GetContext();
@@ -49,6 +51,7 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             }
         }
 
+        [ExcludeFromCodeCoverage]
         public async Task<T> BuscarPorLlave(object ValueKey)
         {
             var _context = GetContext();
@@ -58,6 +61,8 @@ namespace Videos.Infraestructura.Adaptadores.RepositorioGenerico
             return res;
 
         }
+
+        [ExcludeFromCodeCoverage]
         public async Task<List<T>> DarListado()
         {
             var _context = GetContext();

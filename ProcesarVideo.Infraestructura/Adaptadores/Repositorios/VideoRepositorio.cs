@@ -1,6 +1,7 @@
 ﻿using Videos.Dominio.Puertos.Repositorios;
 using Videos.Dominio.Entidades;
 using Videos.Infraestructura.Adaptadores.RepositorioGenerico;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Videos.Infraestructura.Adaptadores.Repositorios
 {
@@ -17,11 +18,13 @@ namespace Videos.Infraestructura.Adaptadores.Repositorios
             await _repositorioBase.Procesar(video);
         }
 
+        [ExcludeFromCodeCoverage]
         public async Task<List<Video>> ObtenerListado()
         {
             return await _repositorioBase.DarListado();
         }
 
+        [ExcludeFromCodeCoverage]
         public async Task<Video> ObtenerPorId(Guid id)
         {
            return await _repositorioBase.BuscarPorLlave(id);

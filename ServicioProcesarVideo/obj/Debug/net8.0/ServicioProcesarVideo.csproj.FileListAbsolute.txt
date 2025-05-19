@@ -49,7 +49,6 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.development.json
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\Servicio.BB5C330F.Up2Date
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideo.genruntimeconfig.cache
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\obj\Debug\net8.0\ServicioProcesarVideo.sourcelink.json
@@ -78,3 +77,4 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_micr
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\System.Text.Json.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Edward Romero\Documents\MISO\Proyecto Final II\movilProcesarVideo_ventas_microservicio\ServicioProcesarVideo\bin\Debug\net8.0\version.json

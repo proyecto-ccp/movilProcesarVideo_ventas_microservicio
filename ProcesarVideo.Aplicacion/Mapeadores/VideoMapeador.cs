@@ -8,7 +8,7 @@ namespace Videos.Aplicacion.Mapeadores
     {
         public VideoMapeador() 
         {
-            CreateMap<Video, VideoDto>()
+           CreateMap<Video, VideoDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Nombre))
                 .ForMember(dest => dest.UrlImagen, opt => opt.MapFrom(src => src.UrlImagen))

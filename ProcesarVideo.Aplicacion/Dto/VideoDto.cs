@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics.CodeAnalysis;
 
 namespace Videos.Aplicacion.Dto
 {
+    [ExcludeFromCodeCoverage]
     public class VideoDto
     {
         public Guid Id { get; set; }
@@ -17,11 +14,13 @@ namespace Videos.Aplicacion.Dto
         public string EstadoCarga { get; set; }
     }
 
+    [ExcludeFromCodeCoverage]
     public class VideoOut : BaseOut
     {
         public VideoDto Video { get; set; }
     }
 
+    [ExcludeFromCodeCoverage]
     public class VideoListOut : BaseOut
     {
         public List<VideoDto> Videos { get; set; }
